@@ -1,0 +1,28 @@
+{
+"main":"visitfile.html",
+"name":"visitfile",
+"chromium-args": "--disable-setuid-sandbox",
+"description":"visitfile app of node-webkit",
+"version":"0.1.0",
+"keywords":["visitfile","node-webkit"],
+"single-instance":false,
+"window":{
+	"title":"Domain Computer",
+	"icon":"visitfile.png",
+	"toolbar":false,
+	"frame":true,
+	"width":800,
+	"height":500,
+	"positon":"mouse",
+	"min_width":400,
+	"min_height":200,
+	"max_width":800,
+	"max_height":600,
+	"resizable":false,
+	"show_in_taskbar":false
+},
+"webkit":{
+	"plugin":true
+}
+}
+	
